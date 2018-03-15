@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sample UI Test</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="float-grid.css" rel='stylesheet' type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header role="banner">
+      <section class="top-bar">
+        <img alt="My App logo" class="app-logo" src="./assets/My app green @2x.png" width="130px">
+        <div class="pickColor">
+          <div class="start green chosen">Green</div><div class="start red">Red</div>
+          <img alt="My profile pic" class="profilePic" src="./assets/face.jpg">
+        </div>
+      </section>
+    </header>
+    <main role="main">
+      <section class="left-column">
+          <div class="lineItem">
+            <img alt="line item icon" class="lineIcon" src="./assets/icon.svg">
+            <div class="left-text">
+              <h2>Line item title</h2>
+              <h3>Subheader here</h3>
+            </div>
+            <div class="right-text">
+              <p>A detail</p>
+            </div>
+          </div>
+          <div class="lineItem">
+            <img alt="line item icon" class="lineIcon" src="./assets/icon.svg">
+            <div class="left-text">
+              <h2>Line item title</h2>
+              <h3>Subheader here</h3>
+            </div>
+            <div class="right-text">
+              <p>A detail</p>
+            </div>
+          </div>
+          <div class="lineItem">
+            <img alt="line item icon" class="lineIcon" src="./assets/icon.svg">
+            <div class="left-text">
+              <h2>Line item title</h2>
+              <h3>Subheader here</h3>
+            </div>
+            <div class="right-text">
+              <p>A detail</p>
+            </div>
+          </div>
+          <div class="screws">
+            <img alt="Screws" class="screw" src="./assets/Screw.svg">
+            <h4> Fixed to the bottom </h4>
+            <img alt="Screws" class="screw" src="./assets/Screw.svg">
+          </div>
+      </section>
+      <section class="right-column">
+        <form class="" action="index.html" method="post">
+          <label for="">Number of columns</label><input type="text" aria-label='Number of columns' class="columnsNum" placeholder='3'>
+          <label for="">Row height</label><input type="text" aria-label= 'Row Height' class="rowHeight" placeholder="760 px" >
+        </form>
+        <div class="return-border">
+          <div class="resultBox greenBox" style="height:760px; width:30%"></div>
+          <div class="resultBox greenBox" style="height:760px; width:30%"></div>
+          <div class="resultBox greenBox" style="height:760px; width:30%"></div>
+        </div>
+      </section>
+
+    </main>
+    <script src='index.js'></script>
+  </body>
+</html>

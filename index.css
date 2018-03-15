@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+html,body, main{
+  margin: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+.top-bar{
+  background-color: #f8f8f8;
+  height: 70px;
+  width: 100%;
+  box-shadow: 0px 3px 5px #e5e5e5;
+  float: left;
+}
+
+.app-logo{
+  vertical-align: middle;
+  float: left;
+  padding-top: 18px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.pickColor{
+  float: right;
+  margin-top: 15px;
+  width: 60%;
+}
+.start{
+  width: 40%;
+  background-color:#f8f8f8;
+  display: inline-block;
+  border: 1px solid #4caf50;
+  text-align: center;
+  color:#4caf50;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+/* without chosen or start, this reverts to the opposite colors.*/
+.green{
+  width: 40%;
+  background-color:#f8f8f8;
+  display: inline-block;
+  border: 1px solid #de2d00;
+  text-align: center;
+  color:#de2d00;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+/* without chosen or start, this reverts to the opposite colors.*/
+.red{
+  width: 40%;
+  background-color:#f8f8f8;
+  display: inline-block;
+  border: 1px solid #4caf50;
+  text-align: center;
+  color:#4caf50;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.chosen.green{
+  background-color: #4caf50;
+  color:#f8f8f8;
+  border: 1px solid #4caf50;
+}
+.chosen.red{
+  background-color: #de2d00;
+  color:#f8f8f8;
+  border: 1px solid #de2d00;
+}
+.greenBox{
+  background-color: #4caf50;
+}
+.redBox{
+  background-color: #de2d00;
+}
+.profilePic{
+  display: inline-block;
+  border-radius: 100px;
+  float: right;
+  margin-top: -13px;
+  margin-right: 20px;
+}
+
+.left-column{
+  background-color: #4d4d4d;
+  height:100%;
+  width:30%;
+  display: inline-block;
+}
+.right-column{
+  height:100%;
+  width:70%;
+  display: inline-block;
+  float: right;
+}
+
+.lineItem{
+  color: white;
+  border-bottom: 2px solid #888888;
+}
+.left-text,.right-text, .lineIcon{
+  display: inline-block;
+}
+.lineIcon{
+  padding-left: 10px;
+  padding-right: 20px;
+}
+h2{
+  font-weight: lighter;
+  margin-bottom: -10px;
+}
+.right-text{
+  margin-left: 40px;
+}
+form{
+  margin-left: 100px;
+}
+input{
+  border: none;
+  border-bottom: 1px solid #888888;
+  width: 100px;
+  margin: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.return-border{
+  background-color: #f8f8f8;
+  width: 90%;
+  height: 85%;
+  box-shadow: 0px 3px 5px #e5e5e5;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.resultBox{
+  width: 90%;
+
+  display: inline-block;
+  margin: 10px
+}
+.screws{
+  position:fixed;
+  bottom: -22px;
+  left: 5%;
+
+}
+h4, .screw{
+  display: inline-block;
+  color: white;
+}
+h4{
+  border-bottom: 2px solid white;
+  font-weight: lighter;
+  font-size: 18px;
+}
